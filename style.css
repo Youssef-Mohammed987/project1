@@ -1,0 +1,23 @@
+
+
+
+
+
+.creat
+{
+    background-color: hsl(31, 66%, 93%);
+    height: 300px;
+    width: 200px;
+    font-size: 18px;
+    text-align: left;
+    text-align: center;
+    padding-top: 40px;
+    margin: 50px;
+    font-family: "DM Sans", sans-serif ;
+    border-radius: 10px;
+}
+strong
+{
+    color: #9110e2;
+}
+
