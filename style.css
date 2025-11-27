@@ -10,13 +10,15 @@
     padding-top: 40px;
     margin: 50px;
     border-radius: 10px;
-    font-family:"DM Sans", sans-serif ;
+    font-family:"DM Sans", sans-serif ;.
+    display:inline-flex;
+    justify-content: space-evenly;
 }
 strong
 {
     color: #9110e2;
 }
-.creat2
+.creat2 
 {
     background-color:hsl(39, 100%, 71%);
     height: 300px;
@@ -27,12 +29,5 @@ strong
     border-radius: 10px;
     font-family:"DM Sans", sans-serif ;
     padding-top: 20px;
-    font-weight: bold;
-    
-    
-}
-img
-{
-    margin-bottom: 20px;
-
+    font-weight: 800px;
 }
