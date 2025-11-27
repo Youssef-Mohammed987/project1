@@ -1,8 +1,4 @@
 
-
-
-
-
 .creat
 {
     background-color: hsl(31, 66%, 93%);
@@ -13,11 +9,30 @@
     text-align: center;
     padding-top: 40px;
     margin: 50px;
-    font-family: "DM Sans", sans-serif ;
     border-radius: 10px;
+    font-family:"DM Sans", sans-serif ;
 }
 strong
 {
     color: #9110e2;
 }
+.creat2
+{
+    background-color:hsl(39, 100%, 71%);
+    height: 300px;
+    width: 200px;
+    font-size: 18px;
+    text-align: center; 
+    margin: 50px;
+    border-radius: 10px;
+    font-family:"DM Sans", sans-serif ;
+    padding-top: 20px;
+    font-weight: bold;
+    
+    
+}
+img
+{
+    margin-bottom: 20px;
 
+}
