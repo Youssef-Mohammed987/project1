@@ -1,4 +1,5 @@
 
+
 .creat
 {
     background-color: #f9eee1;
@@ -19,7 +20,7 @@ strong
 .creat2 
 {
     background-color:#ffcb6b;
-    height: 300px;
+    height: 250px;
     width: 200px;
     font-size: 18px;
     text-align: center; 
@@ -72,7 +73,7 @@ strong
 .creat4 {
     height: 180px;
     width: 170px;
-    background-color: #4a2525;
+    background-color: #fdfdfd;
     font-family: "DM+Sans:italic", sans-serif ;
     padding-top: 20px;
     margin: 50px;
@@ -95,7 +96,7 @@ strong
 .creat5{
     height: 150px;
     width: 170px;
-    background-color: #9e1c52ac;
+    background-color: #ffffffac;
     font-family: "DM+Sans:italic", sans-serif ;
     padding-left: 15px;
     padding-bottom: 10px;
@@ -106,6 +107,11 @@ strong
 .creat5 small{
     font-size: 10px;
     font-weight: lighter;
+}
+@media (max-width: 768px) {
+    .contans {
+        transform: translate(0 , 0);
+    }
 }
 
 
