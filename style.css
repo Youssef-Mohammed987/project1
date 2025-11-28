@@ -1,7 +1,7 @@
 
 .creat
 {
-    background-color: hsl(31, 66%, 93%);
+    background-color: #f9eee1;
     height: 300px;
     width: 200px;
     font-size: 18px;
@@ -18,7 +18,7 @@ strong
 }
 .creat2 
 {
-    background-color:hsl(39, 100%, 71%);
+    background-color:#ffcb6b;
     height: 300px;
     width: 200px;
     font-size: 18px;
@@ -40,7 +40,7 @@ strong
 
 }
 .creat3{
-    background-color: hsl(256, 67%, 59%);
+    background-color: #7650dc;
     height: 270px ;
     width: 400px;
     font-size: 24px;
@@ -60,6 +60,28 @@ strong
     .creat3 {
         width: 90%;
         font-size: 20px;
+    }
+}
+.cont{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    transform: translate( -380px   , -780px );
+}
+.creat4 {
+    height: 200px;
+    width: 200px;
+    background-color: #ffffff;
+    font-family: "DM+Sans:italic", sans-serif ;
+    padding-top: 20px;
+    margin: 50px;
+    border-radius: 10px; 
+    
+}
+@media (max-width: 768px) {
+    .cont {
+        transform: translate(0 , 0);
     }
 }
 
