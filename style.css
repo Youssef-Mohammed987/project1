@@ -102,7 +102,6 @@ strong
     padding-bottom: 10px;
     text-align: left;
     border-radius: 10px;
-    transform:scale(1);
 }
 .creat5 small{
     font-size: 10px;
@@ -113,6 +112,40 @@ strong
         transform: translate(0 , 0);
     }
 }
+.creato{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    transform: translate( -200px   , -1200px );
+}
+.creat6{
+    height: 200px;
+    width: 200px;
+    background-color:  hsl(39, 100%, 71%);
+    font-family: "DM+Sans:italic", sans-serif ;
+    padding-right: 1px;
+    padding-top: 12px;
+    text-align: left;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.creat6 img {
+    width: 75%;    
+    max-width: none;
+    height: auto;
+    transform: translateX(-25%);
+    object-fit: cover;
+    padding-left: 80px;
+}
+@media (max-width: 768px) {
+    .creato {
+        transform: translate(0 , 0);
+    }
+}
+
+
 
 
 
